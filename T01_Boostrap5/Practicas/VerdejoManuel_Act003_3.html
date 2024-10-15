@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeón y Dropdown de Provincias Andaluzas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        .dropdown-menu {
+            min-width: 0;
+            /* Para evitar que el menú sea más ancho que el botón */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2>Provincias Andaluzas</h2>
+
+        <!-- Acordeón -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSevilla">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Sevilla" aria-expanded="true" aria-controls="Sevilla">
+                        Sevilla
+                    </button>
+                </h2>
+                <div id="Sevilla" class="accordion-collapse collapse show" aria-labelledby="headingSevilla"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Sevilla: 690,000 habitantes</li>
+                            <li>Alcalá de Guadaíra: 75,000 habitantes</li>
+                            <li>Coria del Río: 30,000 habitantes</li>
+                        </ul>
+                        <a href="https://www.sevilla.org/" target="_blank" class="btn btn-link">Página oficial
+                            de Sevilla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingMalaga">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Malaga" aria-expanded="false" aria-controls="Malaga">
+                        Málaga
+                    </button>
+                </h2>
+                <div id="Malaga" class="accordion-collapse collapse" aria-labelledby="headingMalaga"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Málaga: 578,000 habitantes</li>
+                            <li>Marbella: 150,000 habitantes</li>
+                            <li>Torremolinos: 68,000 habitantes</li>
+                        </ul>
+                        <a href="https://www.malagahoy.es/" target="_blank" class="btn btn-link">Página oficial
+                            de Málaga</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingGranada">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Granada" aria-expanded="false" aria-controls="Granada">
+                        Granada
+                    </button>
+                </h2>
+                <div id="Granada" class="accordion-collapse collapse" aria-labelledby="headingGranada"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Granada: 235,000 habitantes</li>
+                            <li>Almuñécar: 27,000 habitantes</li>
+                            <li>Motril: 60,000 habitantes</li>
+                        </ul>
+                        <a href="https://www.granada.org/" target="_blank" class="btn btn-link">Página
+                            oficial de Granada</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCadiz">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Cadiz" aria-expanded="false" aria-controls="Cadiz">
+                        Cádiz
+                    </button>
+                </h2>
+                <div id="Cadiz" class="accordion-collapse collapse" aria-labelledby="headingCadiz"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Cádiz: 116,000 habitantes</li>
+                            <li>Jerez de la Frontera: 212,000 habitantes</li>
+                            <li>San Fernando: 98,000 habitantes</li>
+                        </ul>
+                        <a href="https://institucional.cadiz.es/portada_2017" target="_blank"
+                            class="btn btn-link">Página oficial
+                            de Cádiz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="dropdown">
+            <button class="btn btn-success btn dropdown-toggle" type="button" id="dropdown" data-bs-toggle="dropdown">
+                Provincias
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-bs-toggle="collapse" data-bs-target="#Sevilla" aria-expanded="false" aria-controls="Sevilla">Sevilla</a>
+                <a class="dropdown-item" data-bs-toggle="collapse" data-bs-target="#Malaga" aria-expanded="false" aria-controls="Malaga">Malaga</a>
+                <a class="dropdown-item" data-bs-toggle="collapse" data-bs-target="#Granada" aria-expanded="false" aria-controls="Granada">Granada</a>
+                <a class="dropdown-item" data-bs-toggle="collapse" data-bs-target="#Cadiz" aria-expanded="false" aria-controls="Cadiz">Cadiz</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
