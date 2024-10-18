@@ -1,0 +1,48 @@
+#cabecera {
+    background-color: #FF1703;
+    height: 50px;
+    text-align: center;
+}
+
+#logo {
+    background-color: #FF6918;
+    height: 50px;
+    text-align: center; 
+}
+
+#menuprincipal, #pie {
+    background-color: #00CBFC;
+    height: 50px;
+    text-align: center; 
+}
+
+#lateral1 {
+    background-color: #FDFF47;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px; 
+}
+
+#seccionverde {
+    background-color: #8AFF78;
+    height: 50px;
+    text-align: center;
+}
+
+#lateral2 {
+    background-color: #FDFF47;
+    height: 50px;
+    text-align: center; 
+}
+
+#seccionmorada {
+    background-color: #D467F9;
+    height: 50px;
+    text-align: center;
+}
+
+#seccion4 {
+    background-color: #CCCCCC;
+    height: 50px;
+    text-align: center;
+}
