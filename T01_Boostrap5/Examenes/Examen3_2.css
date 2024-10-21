@@ -1,0 +1,41 @@
+#logo {
+    background-color: #FFC033;
+    height: 50px;
+    
+}
+
+#cabecera {
+    background-color: #FF1703;
+    height: 50px;
+}
+
+#funcionalidades {
+    background-color: #BF6017;
+    height: 50px;
+}
+
+#menuprincipal {
+    background-color: #286096;
+    height: 50px;
+}
+
+#lateral{
+    background-color: #FDFF47;
+    height: 150px;
+}
+
+#seccion1{
+    background-color: #74D43F;
+    height: 50px;
+}
+
+#seccion2{
+    background-color: #00A843;
+    height: 50px;
+}
+
+#seccion3{
+    background-color: #85057C;
+    height: 50px;
+    color: white;
+}
