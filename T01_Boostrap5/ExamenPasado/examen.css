@@ -1,0 +1,81 @@
+#logo {
+    height: 50px;
+    background-color: #FFDE59;
+}
+
+#cabecera {
+    height: 50px;
+    background-color: #FF0000;
+}
+
+#menuprincipal {
+    height: 50px;
+    background-color: #729FCF;
+}
+
+#lateral {
+    height: 200px;
+    background-color: #FFFF00;
+    padding-top: 100px;
+}
+
+#seccion1 {
+    @media (min-width: 992px) and ( max-width: 1920px) {
+        height: 100px;
+        padding-top: 50px;
+    }
+    @media (min-width: 768px) and ( max-width: 991px) {
+        height: 150px;
+        padding-top: 90px;
+    }
+    @media (min-width: 1px) and ( max-width: 767px) {
+        height: 50px;
+    }
+    background-color: #77BC65;
+    
+}
+
+#seccion2 {
+    height: 50px;
+    background-color: #E8A202;
+}
+
+#seccion2a {
+    height: 50px;
+    background-color: #BF819E;
+}
+
+#seccion2b {
+    height: 50px;
+    background-color: #EC9BA4;
+}
+
+#seccion3 {
+    height: 50px;
+    background-color: #81ACA6;
+}
+
+#seccion4 {
+    height: 50px;
+    background-color: #FF5429;
+}
+
+#seccion5 {
+    height: 50px;
+    background-color: #55308D;
+}
+
+#contacto {
+    height: 50px;
+    background-color: #FFBF00;
+}
+
+#mapa {
+    height: 50px;
+    background-color: #77BC65;
+}
+
+#pie {
+    height: 50px;
+    background-color: #06F0FC;
+}
