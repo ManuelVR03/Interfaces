@@ -1,0 +1,113 @@
+/*
+xxl
+@media (min-width: 1400px) and (max-width: 1920px) {
+}
+
+xl
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+lg
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+md
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+sm
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+chikinino
+@media (min-width: 1px) and (max-width: 575px) {
+}
+*/
+
+#logo {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 40px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 20px;
+    }
+    background-color: #FF6600;
+}
+
+#titulo {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 40px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 20px;
+    }
+    background-color: #FF0000;
+}
+
+#menu {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 40px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 20px;
+    }
+    background-color: #00CCFF;
+}
+
+#seccion1 {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 80px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        height: 40px;
+    }
+    @media (min-width: 1px) and (max-width: 767px) {
+        height: 20px;
+    }
+    background-color: #66FF00;
+}
+
+#seccion4 {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 80px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 20px;
+    }
+    background-color: #66FF00;
+}
+
+#seccion2 {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 40px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 20px;
+    }
+    background-color: #9933FF;
+}
+
+#lateralizq {
+    @media (min-width: 992px) and (max-width: 1920px) {
+        height: 200px;
+    }
+    @media (min-width: 1px) and (max-width: 991px) {
+        height: 80px;
+    }
+    background-color: #FFFF00;
+}
+
+#lateralderup {
+    height: 80px;
+    background-color: #FFFF00;
+}
+
+#lateralderdown {
+    height: 120px;
+    background-color: #FFFF00;
+}
+
+#pie {
+    height: 20px;
+    background-color: #00CCFF;
+}
