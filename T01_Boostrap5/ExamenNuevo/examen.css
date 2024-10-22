@@ -1,0 +1,85 @@
+/*
+xxl
+@media (min-width: 1400px) and (max-width: 1920px) {
+}
+
+xl
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+lg
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+md
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+sm
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+chikinino
+@media (min-width: 1px) and (max-width: 575px) {
+}
+*/
+
+#cabecera {
+    height: 40px;
+    background-color: red;
+}
+
+#logo {
+    height: 40px;
+    background-color: orangered;
+}
+
+#menupie {
+    height: 40px;
+    background-color: aqua;
+}
+
+#lateral1 {
+    height: 100px;
+    background-color: yellow;
+}
+
+#seccion1 {
+    height: 40px;
+    background-color: greenyellow;
+}
+
+#lateral3 {
+    height: 40px;
+    background-color: yellow;
+}
+
+#seccion3 {
+    height: 60px;
+    background-color: purple;
+}
+
+#seccion4 {
+    height: 60px;
+    background-color: grey;
+}
+
+#lateral2 {
+    height: 60px;
+    background-color: yellow;
+}
+
+#seccion6 {
+    height: 60px;
+    background-color: greenyellow;
+}
+
+#seccion7 {
+    height: 60px;
+    background-color: orangered;
+}
+
+#seccion8 {
+    height: 40px;
+    background-color: green;
+}
