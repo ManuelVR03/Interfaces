@@ -26,60 +26,60 @@ chikinino
 
 #cabecera {
     height: 40px;
-    background-color: red;
+    background-color: #FF0000;
 }
 
 #logo {
     height: 40px;
-    background-color: orangered;
+    background-color: #FF6600;
 }
 
 #menupie {
     height: 40px;
-    background-color: aqua;
+    background-color: #00CCFF;
 }
 
 #lateral1 {
     height: 100px;
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 #seccion1 {
     height: 40px;
-    background-color: greenyellow;
+    background-color: #99FF66;
 }
 
 #lateral3 {
     height: 40px;
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 #seccion3 {
     height: 60px;
-    background-color: purple;
+    background-color: #CC66FF;
 }
 
 #seccion4 {
     height: 60px;
-    background-color: grey;
+    background-color: #CCCCCC;
 }
 
 #lateral2 {
     height: 60px;
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 #seccion6 {
     height: 60px;
-    background-color: greenyellow;
+    background-color: #99FF66;
 }
 
 #seccion7 {
     height: 60px;
-    background-color: orangered;
+    background-color: #FF6600;
 }
 
 #seccion8 {
     height: 40px;
-    background-color: green;
+    background-color: #00A933;
 }
