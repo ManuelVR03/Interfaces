@@ -1,0 +1,40 @@
+.logo {
+    height: 40px;
+    background-color: #FFBF00;
+}
+
+.cabecera {
+    height: 40px;
+    background-color: #FF0000;
+}
+
+.funcionalidades {
+    height: 40px;
+    background-color: #BB5F03;
+}
+
+.menupie {
+    height: 40px;
+    background-color: #2A6099;
+}
+
+.lateral {
+    height: 120px;
+    background-color: #FFFF00;
+}
+
+.seccion14 {
+    height: 40px;
+    background-color: #81D41A;
+}
+
+.seccion3 {
+    height: 40px;
+    background-color: #800080;
+    color: white;
+}
+
+.seccion25 {
+    height: 40px;
+    background-color: #00A933;
+}
