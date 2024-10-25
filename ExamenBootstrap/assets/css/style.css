@@ -1,0 +1,33 @@
+/*  ***** CSS DISEÑO RESPONSIVE FCHANG   */
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+
+aside{
+  background:red;
+  border: solid 5px white;
+}
+.azul{
+  background-color:blue;
+  height: 6vh;
+  border: solid 5px white;
+}
+nav{
+  background: greenyellow;
+  height: 6vh;
+  border: solid 5px white;
+}
+.magenta{
+  background: magenta;
+  height: 6vh;
+  border: solid 5px white;
+}
+.naranja{
+  background: orange;
+  height: 7vh;
+  border: solid 5px white;
+}
+footer{
+  background: greenyellow;
+  height: 5vh;
+  border: solid 5px white;
+}
+
