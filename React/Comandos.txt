@@ -1,0 +1,3 @@
+npx --force create-react-app ejercicio1
+npm install --force bootstrap
+import "bootstrap/dist/css/bootstrap.min.css"
